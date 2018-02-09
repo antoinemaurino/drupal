@@ -1,0 +1,12 @@
+name: myFeature
+description: 'customType + customView'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - node
+  - path
+  - rdf
+  - text
+  - user
+  - views
