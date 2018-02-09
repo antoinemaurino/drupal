@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - node.type.page
+    - field.field.node.customtype.body
+    - node.type.customtype
   module:
     - path
     - text
-id: node.page.default
+id: node.customtype.default
 targetEntityType: node
-bundle: page
+bundle: customtype
 mode: default
 content:
   body:

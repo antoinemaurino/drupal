@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.page
+    - node.type.customtype
   module:
     - text
-id: node.page.body
+id: node.customtype.body
 field_name: body
 entity_type: node
-bundle: page
+bundle: customtype
 label: Body
 description: ''
 required: false

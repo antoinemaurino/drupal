@@ -3,23 +3,23 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.page.body
-    - node.type.page
+    - field.field.node.customtype.body
+    - node.type.customtype
   module:
     - text
     - user
-id: node.page.teaser
+id: node.customtype.teaser
 targetEntityType: node
-bundle: page
+bundle: customtype
 mode: teaser
 content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 100
+    weight: 101
     settings:
       trim_length: 600
     third_party_settings: {  }
   links:
-    weight: 101
+    weight: 100
 hidden: {  }

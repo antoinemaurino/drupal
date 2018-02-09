@@ -1,11 +1,13 @@
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.customtype
   module:
     - node
     - user
-id: devview
-label: devView
+id: customview
+label: customView
 module: views
 description: ''
 tag: ''
@@ -136,6 +138,15 @@ display:
           expose:
             operator: ''
           group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            customtype: customtype
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
       sorts:
         created:
           id: created

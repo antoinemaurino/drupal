@@ -4,9 +4,9 @@ type: module
 core: 8.x
 dependencies:
   - field
+  - menu_ui
   - node
   - path
-  - rdf
   - text
   - user
   - views
